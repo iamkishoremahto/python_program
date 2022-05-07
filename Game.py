@@ -68,16 +68,17 @@ class Game:
             print("Total Computer win : ",computerWin)
 
 obj=Game()
+if __name__ =='__main__':
 
-print("Choose the game : ")
-print("1. Guess The Number\n2. Snake Water Gun")
-choice=int(input())
-if(choice==1):
-    print("Welcome\n")
-    obj.guess()
-elif(choice==2):
-    print("Welcome\n")
-    obj.snake_water_gun()
+    print("Choose the game : ")
+    print("1. Guess The Number\n2. Snake Water Gun")
+    choice=int(input())
+    if(choice==1):
+        print("Welcome\n")
+        obj.guess()
+    elif(choice==2):
+        print("Welcome\n")
+        obj.snake_water_gun()
 
         
 
