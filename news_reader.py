@@ -7,7 +7,7 @@ def news_Reader(str):
     speak=Dispatch("SAPI.SpVoice")
     speak.Speak(str)
 
-s="My name is kishore"
+
 
 if __name__ == '__main__':
     r=requests.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=330a890633df4c90a66b5550e50aab56")

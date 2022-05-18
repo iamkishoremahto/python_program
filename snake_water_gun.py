@@ -1,8 +1,5 @@
 import random
 
-
-
-
 computerWin=0
 userWin=0
 n=10

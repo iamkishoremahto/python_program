@@ -34,14 +34,15 @@ def div():
     else:
         result=a/b
         print("Ans : ",result)
+if __name__ =='__main__':
 
-print("""Enter your choice
-1. Add
-2. Mul
-3. Sub
-4. Div""")
+    print("""Enter your choice
+    1. Add
+    2. Mul
+    3. Sub
+    4. Div""")
 
-choice=int(input('Choice : '))
-Calculator=[add,mul,sub,div]
-output=(Calculator[choice-1])()
-print(output)
+    choice=int(input('Choice : '))
+    Calculator=[add,mul,sub,div]
+    output=(Calculator[choice-1])()
+    print(output)
